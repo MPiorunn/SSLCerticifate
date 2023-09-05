@@ -7,3 +7,7 @@ server:
     key-store: classpath:certificates/basic.p12
     key-store-password: password
     key-alias: basic
+    enabled-protocols: TLSv1.2
+    enabled: true
+
+
