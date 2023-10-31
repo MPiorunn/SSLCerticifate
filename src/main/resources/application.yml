@@ -4,9 +4,9 @@ server:
     context-path: /
   ssl:
     key-store-type: PKCS12
-    key-store: classpath:certificates/basic.p12
+    key-store: classpath:certificates/new3.p12
     key-store-password: password
-    key-alias: basic
+    key-alias: new3
     enabled-protocols: TLSv1.2
     enabled: true
 
